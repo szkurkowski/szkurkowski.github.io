@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px Roboto, Arial, sans-serif;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    background-color: rgb( 30,31,33 );
+    background-color: rgba( 30,31,33, 0.90);
+	font: 16px Roboto, Arial, sans-serif;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav > li > a:focus, .nav > li > a:hover, nav a:focus {
+    text-decoration: none;
+	background: none;
+}
+
+ul li a:hover {
+  color: #ff7660;
+}
+
+button.navbar-toggle {
+    background: #FFFFFF;
+}
+
+.navbar-toggle .icon-bar {
+    background: #212121;
+}
+
+.first{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+    padding: 30px 0 30px;
+    max-width: 960px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.section_first{
+    min-height: calc(100vh - 0px);
+    background: url('img/header.jpeg') center/cover no-repeat;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.section_first h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.section {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #333;
+}
+
+.section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.thumbnail {
+    border: 1px solid #fff;
+    padding-top: 75px;
+}
+
+.skew_topf {
+    background-color: #F4F4F4;
+    height: 145px;
+    position: relative;
+    top: 105px;
+    -ms-transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+}
+
+.section_second {
+    color: #333;
+    background-color: #F4F4F4;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.section_second h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_second h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_second p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.img_circle {
+    border-radius: 50%;
+}
+
+.logo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.skew_topw {
+    background-color: white;
+    height: 75px;
+    position: relative;
+    top: -30px;
+    transform: skewY(-3deg);
+}
+
+.section_third {
+    color: #333;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section_third h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_third p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.arrow {
+    float: left;
+    width: 15px;
+    height: 50px;
+    background: url(img/arrow-left.png) no-repeat 0 23px;
+    }
+
+.poj {
+    width: auto;
+    background: #f3f3f3;
+    border-bottom: solid 4px #eeeeee;
+    padding: 22px 47px 6px 47px;
+    margin-left: 15px;
+}
+
+.year {
+    font-size: 17px;
+    color: #fff;
+    background: #ff7660;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 40px 0 40px 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.wall{
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.section_four {
+    color: #333;
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section_four h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_four p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.conct{
+    padding-top: 55px;
+}
+
+.contactbox {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.description{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.descriptionfirst{
+    padding-left: 15px;
+    padding-top: 5px; 
+}
+
+footer{
+    text-align: right;
+}
